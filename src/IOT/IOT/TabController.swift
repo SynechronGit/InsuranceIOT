@@ -16,8 +16,8 @@ class TabController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.temperatureContainerView.isHidden = false
-        self.gpsContainerView.isHidden = true
+        self.temperatureContainerView.isHidden = true
+        self.gpsContainerView.isHidden = false
     }
     
 }

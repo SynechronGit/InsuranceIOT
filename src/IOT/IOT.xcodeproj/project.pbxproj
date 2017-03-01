@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BEA51331E65B525003492A6 /* BasicInfoTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA51321E65B525003492A6 /* BasicInfoTableCellView.swift */; };
+		1BEA51351E66B841003492A6 /* BasicInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA51341E66B841003492A6 /* BasicInfoModel.swift */; };
 		3F13C7631E65884200ADE303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13C7621E65884200ADE303 /* AppDelegate.swift */; };
 		3F13C7651E65884200ADE303 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13C7641E65884200ADE303 /* TabController.swift */; };
 		3F13C7681E65884200ADE303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F13C7661E65884200ADE303 /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BEA51321E65B525003492A6 /* BasicInfoTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicInfoTableCellView.swift; sourceTree = "<group>"; };
+		1BEA51341E66B841003492A6 /* BasicInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicInfoModel.swift; sourceTree = "<group>"; };
 		3F13C75F1E65884200ADE303 /* IOT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F13C7621E65884200ADE303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F13C7641E65884200ADE303 /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 				3F13C7641E65884200ADE303 /* TabController.swift */,
 				3F13C7901E658AE700ADE303 /* TemperatureController.swift */,
 				3F13C7921E658AF500ADE303 /* GpsController.swift */,
+				1BEA51321E65B525003492A6 /* BasicInfoTableCellView.swift */,
+				1BEA51341E66B841003492A6 /* BasicInfoModel.swift */,
 				3F13C7661E65884200ADE303 /* Main.storyboard */,
 				3F13C7691E65884200ADE303 /* Assets.xcassets */,
 				3F13C76B1E65884200ADE303 /* LaunchScreen.storyboard */,
@@ -265,9 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BEA51351E66B841003492A6 /* BasicInfoModel.swift in Sources */,
 				3F13C7931E658AF500ADE303 /* GpsController.swift in Sources */,
 				3F13C7911E658AE700ADE303 /* TemperatureController.swift in Sources */,
 				3F13C7651E65884200ADE303 /* TabController.swift in Sources */,
+				1BEA51331E65B525003492A6 /* BasicInfoTableCellView.swift in Sources */,
 				3F13C7631E65884200ADE303 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,6 +525,7 @@
 				3F13C7891E65884200ADE303 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F13C78A1E65884200ADE303 /* Build configuration list for PBXNativeTarget "IOTTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +534,7 @@
 				3F13C78C1E65884200ADE303 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F13C78D1E65884200ADE303 /* Build configuration list for PBXNativeTarget "IOTUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +543,7 @@
 				3F13C78F1E65884200ADE303 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
