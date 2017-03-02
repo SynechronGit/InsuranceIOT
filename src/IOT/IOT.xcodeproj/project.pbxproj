@@ -24,6 +24,8 @@
 		3F13C7831E65884200ADE303 /* IOTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13C7821E65884200ADE303 /* IOTUITests.swift */; };
 		3F13C7911E658AE700ADE303 /* TemperatureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13C7901E658AE700ADE303 /* TemperatureController.swift */; };
 		3F13C7931E658AF500ADE303 /* GpsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13C7921E658AF500ADE303 /* GpsController.swift */; };
+		3F325B1F1E68592E00204D3B /* ATKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F325B1E1E68592E00204D3B /* ATKit.framework */; };
+		3F325B211E68593800204D3B /* ATKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F325B1E1E68592E00204D3B /* ATKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,20 @@
 			remoteInfo = IOT;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3FB9A2011E683F7F0032713B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3F325B211E68593800204D3B /* ATKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1B3BD5A31E67FF5B001087B2 /* HistoryTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableCellView.swift; sourceTree = "<group>"; };
@@ -67,6 +83,7 @@
 		3F13C7841E65884200ADE303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F13C7901E658AE700ADE303 /* TemperatureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureController.swift; sourceTree = "<group>"; };
 		3F13C7921E658AF500ADE303 /* GpsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GpsController.swift; sourceTree = "<group>"; };
+		3F325B1E1E68592E00204D3B /* ATKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ATKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F325B1F1E68592E00204D3B /* ATKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +143,7 @@
 		3F13C7611E65884200ADE303 /* IOT */ = {
 			isa = PBXGroup;
 			children = (
+				3F325B1D1E68592E00204D3B /* ThirdParty */,
 				3F119AAB1E66F3990070F585 /* Models */,
 				3F13C7621E65884200ADE303 /* AppDelegate.swift */,
 				3F13C7641E65884200ADE303 /* TabController.swift */,
@@ -163,6 +182,14 @@
 			path = IOTUITests;
 			sourceTree = "<group>";
 		};
+		3F325B1D1E68592E00204D3B /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				3F325B1E1E68592E00204D3B /* ATKit.framework */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,6 +200,7 @@
 				3F13C75B1E65884100ADE303 /* Sources */,
 				3F13C75C1E65884100ADE303 /* Frameworks */,
 				3F13C75D1E65884100ADE303 /* Resources */,
+				3FB9A2011E683F7F0032713B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -460,6 +488,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThirdParty",
+					"$(PROJECT_DIR)/IOT/ThirdParty",
+				);
 				INFOPLIST_FILE = IOT/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -474,6 +507,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThirdParty",
+					"$(PROJECT_DIR)/IOT/ThirdParty",
+				);
 				INFOPLIST_FILE = IOT/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

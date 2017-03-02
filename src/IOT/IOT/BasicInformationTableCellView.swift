@@ -7,15 +7,19 @@
 //
 
 import UIKit
+import ATKit
+
 
 class BasicInformationTableCellView: UITableViewCell {
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var valueLabel: UILabel!
+    @IBOutlet weak var titleLabel: ATLabel!
+    @IBOutlet weak var valueLabel: ATLabel!
     
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        self.titleLabel.verticalTextAlignment = ATVerticalTextAlignment.top
+        self.valueLabel.verticalTextAlignment = ATVerticalTextAlignment.top
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
