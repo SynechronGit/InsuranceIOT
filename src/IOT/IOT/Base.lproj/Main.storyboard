@@ -932,6 +932,7 @@
                         <outlet property="basicInfoContainerView" destination="Oej-lb-GQV" id="VAU-DL-3d3"/>
                         <outlet property="basicInfoTableView" destination="P7l-WG-zcP" id="keH-I1-I7l"/>
                         <outlet property="historyTableView" destination="hSh-bS-DpE" id="oXa-C0-BH9"/>
+                        <outlet property="todaysDateLabel" destination="7FW-Lb-IE2" id="mZl-22-Qd5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AKM-HL-VNX" userLabel="First Responder" sceneMemberID="firstResponder"/>

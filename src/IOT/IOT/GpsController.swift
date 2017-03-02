@@ -19,6 +19,7 @@ class GpsController: UIViewController,UITableViewDelegate,UITableViewDataSource 
     var arrayOfPolicyDetails = Array<BasicInfoModel>()
     var arrayOfHistory = Array<History>()
     
+    @IBOutlet weak var todaysDateLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +30,10 @@ class GpsController: UIViewController,UITableViewDelegate,UITableViewDataSource 
         
         self.arrayOfHistory = History.arrayOfHistory()
         
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "EEEE, MMM dd, yyyy"
+        
+        self.todaysDateLabel.text = dateFormatter.string(from: Date())
     }
 
     override func didReceiveMemoryWarning() {
