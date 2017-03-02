@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B3BD5A41E67FF5B001087B2 /* HistoryTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3BD5A31E67FF5B001087B2 /* HistoryTableCellView.swift */; };
+		1B3BD5A61E6804F9001087B2 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3BD5A51E6804F9001087B2 /* History.swift */; };
 		1BEA51331E65B525003492A6 /* BasicInfoTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA51321E65B525003492A6 /* BasicInfoTableCellView.swift */; };
 		1BEA51351E66B841003492A6 /* BasicInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA51341E66B841003492A6 /* BasicInfoModel.swift */; };
 		3F13C7631E65884200ADE303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13C7621E65884200ADE303 /* AppDelegate.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B3BD5A31E67FF5B001087B2 /* HistoryTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableCellView.swift; sourceTree = "<group>"; };
+		1B3BD5A51E6804F9001087B2 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		1BEA51321E65B525003492A6 /* BasicInfoTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicInfoTableCellView.swift; sourceTree = "<group>"; };
 		1BEA51341E66B841003492A6 /* BasicInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicInfoModel.swift; sourceTree = "<group>"; };
 		3F13C75F1E65884200ADE303 /* IOT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOT.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,7 +114,9 @@
 				3F13C7901E658AE700ADE303 /* TemperatureController.swift */,
 				3F13C7921E658AF500ADE303 /* GpsController.swift */,
 				1BEA51321E65B525003492A6 /* BasicInfoTableCellView.swift */,
+				1B3BD5A31E67FF5B001087B2 /* HistoryTableCellView.swift */,
 				1BEA51341E66B841003492A6 /* BasicInfoModel.swift */,
+				1B3BD5A51E6804F9001087B2 /* History.swift */,
 				3F13C7661E65884200ADE303 /* Main.storyboard */,
 				3F13C7691E65884200ADE303 /* Assets.xcassets */,
 				3F13C76B1E65884200ADE303 /* LaunchScreen.storyboard */,
@@ -272,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BEA51351E66B841003492A6 /* BasicInfoModel.swift in Sources */,
+				1B3BD5A41E67FF5B001087B2 /* HistoryTableCellView.swift in Sources */,
+				1B3BD5A61E6804F9001087B2 /* History.swift in Sources */,
 				3F13C7931E658AF500ADE303 /* GpsController.swift in Sources */,
 				3F13C7911E658AE700ADE303 /* TemperatureController.swift in Sources */,
 				3F13C7651E65884200ADE303 /* TabController.swift in Sources */,
