@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import ATKit
+
 
 class TemperatureController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     var basicInfoArray :Array<BasicInfoModel> = DataAdapter.sharedDataAdapter.fetchTemperatureBasicInfoArray()
@@ -16,6 +18,8 @@ class TemperatureController: UIViewController, UITableViewDataSource, UITableVie
     var sensorEvents :Array<SensorEvent> = DataAdapter.sharedDataAdapter.fetchSensorEventArray()
     @IBOutlet weak var sensorEventTableView: UITableView!
     
+    @IBOutlet weak var dateLabel: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +28,8 @@ class TemperatureController: UIViewController, UITableViewDataSource, UITableVie
         self.profileTableView.delegate = self
         self.sensorEventTableView.dataSource = self
         self.sensorEventTableView.delegate = self
+        
+        self.dateLabel.text = Date().stringWithFormat("EEEE, MMM dd, yyyy")
     }
     
     
