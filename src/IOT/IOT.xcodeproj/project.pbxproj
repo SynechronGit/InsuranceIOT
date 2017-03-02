@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		1BEA51331E65B525003492A6 /* BasicInfoTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA51321E65B525003492A6 /* BasicInfoTableCellView.swift */; };
 		1BEA51351E66B841003492A6 /* BasicInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA51341E66B841003492A6 /* BasicInfoModel.swift */; };
+		3F119AAD1E66F3990070F585 /* SensorEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F119AAC1E66F3990070F585 /* SensorEvent.swift */; };
+		3F119AAF1E66F4420070F585 /* BasicInformationTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F119AAE1E66F4420070F585 /* BasicInformationTableCellView.swift */; };
+		3F119AB11E66F7400070F585 /* DataAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F119AB01E66F7400070F585 /* DataAdapter.swift */; };
+		3F119AB31E67072C0070F585 /* SensorEventTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F119AB21E67072B0070F585 /* SensorEventTableCellView.swift */; };
 		3F13C7631E65884200ADE303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13C7621E65884200ADE303 /* AppDelegate.swift */; };
 		3F13C7651E65884200ADE303 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13C7641E65884200ADE303 /* TabController.swift */; };
 		3F13C7681E65884200ADE303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F13C7661E65884200ADE303 /* Main.storyboard */; };
@@ -40,6 +44,10 @@
 /* Begin PBXFileReference section */
 		1BEA51321E65B525003492A6 /* BasicInfoTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicInfoTableCellView.swift; sourceTree = "<group>"; };
 		1BEA51341E66B841003492A6 /* BasicInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicInfoModel.swift; sourceTree = "<group>"; };
+		3F119AAC1E66F3990070F585 /* SensorEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorEvent.swift; sourceTree = "<group>"; };
+		3F119AAE1E66F4420070F585 /* BasicInformationTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicInformationTableCellView.swift; sourceTree = "<group>"; };
+		3F119AB01E66F7400070F585 /* DataAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAdapter.swift; sourceTree = "<group>"; };
+		3F119AB21E67072B0070F585 /* SensorEventTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorEventTableCellView.swift; sourceTree = "<group>"; };
 		3F13C75F1E65884200ADE303 /* IOT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F13C7621E65884200ADE303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F13C7641E65884200ADE303 /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
@@ -82,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F119AAB1E66F3990070F585 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F119AAC1E66F3990070F585 /* SensorEvent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		3F13C7561E65884100ADE303 = {
 			isa = PBXGroup;
 			children = (
@@ -105,12 +121,16 @@
 		3F13C7611E65884200ADE303 /* IOT */ = {
 			isa = PBXGroup;
 			children = (
+				3F119AAB1E66F3990070F585 /* Models */,
 				3F13C7621E65884200ADE303 /* AppDelegate.swift */,
 				3F13C7641E65884200ADE303 /* TabController.swift */,
 				3F13C7901E658AE700ADE303 /* TemperatureController.swift */,
+				3F119AAE1E66F4420070F585 /* BasicInformationTableCellView.swift */,
+				3F119AB21E67072B0070F585 /* SensorEventTableCellView.swift */,
 				3F13C7921E658AF500ADE303 /* GpsController.swift */,
 				1BEA51321E65B525003492A6 /* BasicInfoTableCellView.swift */,
 				1BEA51341E66B841003492A6 /* BasicInfoModel.swift */,
+				3F119AB01E66F7400070F585 /* DataAdapter.swift */,
 				3F13C7661E65884200ADE303 /* Main.storyboard */,
 				3F13C7691E65884200ADE303 /* Assets.xcassets */,
 				3F13C76B1E65884200ADE303 /* LaunchScreen.storyboard */,
@@ -272,11 +292,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BEA51351E66B841003492A6 /* BasicInfoModel.swift in Sources */,
+				3F119AAF1E66F4420070F585 /* BasicInformationTableCellView.swift in Sources */,
+				3F119AB31E67072C0070F585 /* SensorEventTableCellView.swift in Sources */,
 				3F13C7931E658AF500ADE303 /* GpsController.swift in Sources */,
 				3F13C7911E658AE700ADE303 /* TemperatureController.swift in Sources */,
 				3F13C7651E65884200ADE303 /* TabController.swift in Sources */,
 				1BEA51331E65B525003492A6 /* BasicInfoTableCellView.swift in Sources */,
 				3F13C7631E65884200ADE303 /* AppDelegate.swift in Sources */,
+				3F119AAD1E66F3990070F585 /* SensorEvent.swift in Sources */,
+				3F119AB11E66F7400070F585 /* DataAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
