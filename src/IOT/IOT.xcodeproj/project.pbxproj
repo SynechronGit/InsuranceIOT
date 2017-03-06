@@ -9,6 +9,19 @@
 /* Begin PBXBuildFile section */
 		1B3BD5A41E67FF5B001087B2 /* HistoryTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3BD5A31E67FF5B001087B2 /* HistoryTableCellView.swift */; };
 		1B3BD5A61E6804F9001087B2 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3BD5A51E6804F9001087B2 /* History.swift */; };
+		1B3BD5ED1E69871E001087B2 /* SwiftR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3BD5E01E69871E001087B2 /* SwiftR.swift */; };
+		1B3BD5EE1E69871E001087B2 /* jquery-2.1.3.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B3BD5E21E69871E001087B2 /* jquery-2.1.3.min.js */; };
+		1B3BD5EF1E69871E001087B2 /* jquery.signalr-2.0.0.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B3BD5E31E69871E001087B2 /* jquery.signalr-2.0.0.min.js */; };
+		1B3BD5F01E69871E001087B2 /* jquery.signalr-2.0.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B3BD5E41E69871E001087B2 /* jquery.signalr-2.0.1.min.js */; };
+		1B3BD5F11E69871E001087B2 /* jquery.signalr-2.0.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B3BD5E51E69871E001087B2 /* jquery.signalr-2.0.2.min.js */; };
+		1B3BD5F21E69871E001087B2 /* jquery.signalr-2.0.3.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B3BD5E61E69871E001087B2 /* jquery.signalr-2.0.3.min.js */; };
+		1B3BD5F31E69871E001087B2 /* jquery.signalr-2.1.0.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B3BD5E71E69871E001087B2 /* jquery.signalr-2.1.0.min.js */; };
+		1B3BD5F41E69871E001087B2 /* jquery.signalr-2.1.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B3BD5E81E69871E001087B2 /* jquery.signalr-2.1.1.min.js */; };
+		1B3BD5F51E69871E001087B2 /* jquery.signalr-2.1.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B3BD5E91E69871E001087B2 /* jquery.signalr-2.1.2.min.js */; };
+		1B3BD5F61E69871E001087B2 /* jquery.signalr-2.2.0.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B3BD5EA1E69871E001087B2 /* jquery.signalr-2.2.0.min.js */; };
+		1B3BD5F71E69871E001087B2 /* jquery.signalr-2.2.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B3BD5EB1E69871E001087B2 /* jquery.signalr-2.2.1.min.js */; };
+		1B3BD5F81E69871E001087B2 /* SwiftR.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B3BD5EC1E69871E001087B2 /* SwiftR.js */; };
+		1B3BD5FA1E698816001087B2 /* SignalRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3BD5F91E698816001087B2 /* SignalRManager.swift */; };
 		1BEA51331E65B525003492A6 /* BasicInfoTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA51321E65B525003492A6 /* BasicInfoTableCellView.swift */; };
 		1BEA51351E66B841003492A6 /* BasicInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA51341E66B841003492A6 /* BasicInfoModel.swift */; };
 		3F119AAD1E66F3990070F585 /* SensorEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F119AAC1E66F3990070F585 /* SensorEvent.swift */; };
@@ -62,6 +75,19 @@
 /* Begin PBXFileReference section */
 		1B3BD5A31E67FF5B001087B2 /* HistoryTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableCellView.swift; sourceTree = "<group>"; };
 		1B3BD5A51E6804F9001087B2 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		1B3BD5E01E69871E001087B2 /* SwiftR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftR.swift; sourceTree = "<group>"; };
+		1B3BD5E21E69871E001087B2 /* jquery-2.1.3.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-2.1.3.min.js"; sourceTree = "<group>"; };
+		1B3BD5E31E69871E001087B2 /* jquery.signalr-2.0.0.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery.signalr-2.0.0.min.js"; sourceTree = "<group>"; };
+		1B3BD5E41E69871E001087B2 /* jquery.signalr-2.0.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery.signalr-2.0.1.min.js"; sourceTree = "<group>"; };
+		1B3BD5E51E69871E001087B2 /* jquery.signalr-2.0.2.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery.signalr-2.0.2.min.js"; sourceTree = "<group>"; };
+		1B3BD5E61E69871E001087B2 /* jquery.signalr-2.0.3.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery.signalr-2.0.3.min.js"; sourceTree = "<group>"; };
+		1B3BD5E71E69871E001087B2 /* jquery.signalr-2.1.0.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery.signalr-2.1.0.min.js"; sourceTree = "<group>"; };
+		1B3BD5E81E69871E001087B2 /* jquery.signalr-2.1.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery.signalr-2.1.1.min.js"; sourceTree = "<group>"; };
+		1B3BD5E91E69871E001087B2 /* jquery.signalr-2.1.2.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery.signalr-2.1.2.min.js"; sourceTree = "<group>"; };
+		1B3BD5EA1E69871E001087B2 /* jquery.signalr-2.2.0.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery.signalr-2.2.0.min.js"; sourceTree = "<group>"; };
+		1B3BD5EB1E69871E001087B2 /* jquery.signalr-2.2.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery.signalr-2.2.1.min.js"; sourceTree = "<group>"; };
+		1B3BD5EC1E69871E001087B2 /* SwiftR.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SwiftR.js; sourceTree = "<group>"; };
+		1B3BD5F91E698816001087B2 /* SignalRManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalRManager.swift; sourceTree = "<group>"; };
 		1BEA51321E65B525003492A6 /* BasicInfoTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicInfoTableCellView.swift; sourceTree = "<group>"; };
 		1BEA51341E66B841003492A6 /* BasicInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicInfoModel.swift; sourceTree = "<group>"; };
 		3F119AAC1E66F3990070F585 /* SensorEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorEvent.swift; sourceTree = "<group>"; };
@@ -112,6 +138,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B3BD5DF1E69871E001087B2 /* SwiftR */ = {
+			isa = PBXGroup;
+			children = (
+				1B3BD5E01E69871E001087B2 /* SwiftR.swift */,
+				1B3BD5E11E69871E001087B2 /* Web */,
+			);
+			path = SwiftR;
+			sourceTree = "<group>";
+		};
+		1B3BD5E11E69871E001087B2 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				1B3BD5E21E69871E001087B2 /* jquery-2.1.3.min.js */,
+				1B3BD5E31E69871E001087B2 /* jquery.signalr-2.0.0.min.js */,
+				1B3BD5E41E69871E001087B2 /* jquery.signalr-2.0.1.min.js */,
+				1B3BD5E51E69871E001087B2 /* jquery.signalr-2.0.2.min.js */,
+				1B3BD5E61E69871E001087B2 /* jquery.signalr-2.0.3.min.js */,
+				1B3BD5E71E69871E001087B2 /* jquery.signalr-2.1.0.min.js */,
+				1B3BD5E81E69871E001087B2 /* jquery.signalr-2.1.1.min.js */,
+				1B3BD5E91E69871E001087B2 /* jquery.signalr-2.1.2.min.js */,
+				1B3BD5EA1E69871E001087B2 /* jquery.signalr-2.2.0.min.js */,
+				1B3BD5EB1E69871E001087B2 /* jquery.signalr-2.2.1.min.js */,
+				1B3BD5EC1E69871E001087B2 /* SwiftR.js */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
 		3F119AAB1E66F3990070F585 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +208,7 @@
 				1B3BD5A31E67FF5B001087B2 /* HistoryTableCellView.swift */,
 				1BEA51341E66B841003492A6 /* BasicInfoModel.swift */,
 				3F119AB01E66F7400070F585 /* DataAdapter.swift */,
+				1B3BD5F91E698816001087B2 /* SignalRManager.swift */,
 				1B3BD5A51E6804F9001087B2 /* History.swift */,
 				3F13C7661E65884200ADE303 /* Main.storyboard */,
 				3F13C7691E65884200ADE303 /* Assets.xcassets */,
@@ -185,6 +239,7 @@
 		3F325B1D1E68592E00204D3B /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				1B3BD5DF1E69871E001087B2 /* SwiftR */,
 				3F325B1E1E68592E00204D3B /* ATKit.framework */,
 			);
 			path = ThirdParty;
@@ -298,9 +353,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B3BD5F11E69871E001087B2 /* jquery.signalr-2.0.2.min.js in Resources */,
+				1B3BD5F01E69871E001087B2 /* jquery.signalr-2.0.1.min.js in Resources */,
 				3F13C76D1E65884200ADE303 /* LaunchScreen.storyboard in Resources */,
+				1B3BD5F41E69871E001087B2 /* jquery.signalr-2.1.1.min.js in Resources */,
+				1B3BD5F71E69871E001087B2 /* jquery.signalr-2.2.1.min.js in Resources */,
 				3F13C76A1E65884200ADE303 /* Assets.xcassets in Resources */,
+				1B3BD5F31E69871E001087B2 /* jquery.signalr-2.1.0.min.js in Resources */,
+				1B3BD5F81E69871E001087B2 /* SwiftR.js in Resources */,
+				1B3BD5F51E69871E001087B2 /* jquery.signalr-2.1.2.min.js in Resources */,
+				1B3BD5F21E69871E001087B2 /* jquery.signalr-2.0.3.min.js in Resources */,
 				3F13C7681E65884200ADE303 /* Main.storyboard in Resources */,
+				1B3BD5EF1E69871E001087B2 /* jquery.signalr-2.0.0.min.js in Resources */,
+				1B3BD5EE1E69871E001087B2 /* jquery-2.1.3.min.js in Resources */,
+				1B3BD5F61E69871E001087B2 /* jquery.signalr-2.2.0.min.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +399,9 @@
 				3F13C7931E658AF500ADE303 /* GpsController.swift in Sources */,
 				3F13C7911E658AE700ADE303 /* TemperatureController.swift in Sources */,
 				3F13C7651E65884200ADE303 /* TabController.swift in Sources */,
+				1B3BD5ED1E69871E001087B2 /* SwiftR.swift in Sources */,
 				1BEA51331E65B525003492A6 /* BasicInfoTableCellView.swift in Sources */,
+				1B3BD5FA1E698816001087B2 /* SignalRManager.swift in Sources */,
 				3F13C7631E65884200ADE303 /* AppDelegate.swift in Sources */,
 				3F119AAD1E66F3990070F585 /* SensorEvent.swift in Sources */,
 				3F119AB11E66F7400070F585 /* DataAdapter.swift in Sources */,
