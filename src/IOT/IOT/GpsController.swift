@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GpsController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class GpsController: UIViewController,UITableViewDelegate,UITableViewDataSource,signalRManagerDelegate {
 
     @IBOutlet weak var historyTableView: UITableView!
     @IBOutlet weak var basicInfoTableView: UITableView!
@@ -24,6 +24,8 @@ class GpsController: UIViewController,UITableViewDelegate,UITableViewDataSource 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        SignalRManager.sharedSignalRManager.delegate = self
+        
         self.arrayOfBasicInfo = BasicInfoModel.arrayOfBasicInfo()
         self.arrayOfContactDetails = BasicInfoModel.arrayOfContactDetails()
         self.arrayOfPolicyDetails = BasicInfoModel.arrayOfPolicyDetails()
@@ -190,4 +192,9 @@ class GpsController: UIViewController,UITableViewDelegate,UITableViewDataSource 
         return 1.0
     }
 
+    //MARK: - SignalRManager Delegate Methods
+    
+    func didReceiveData(data pdata: AnyObject) {
+        print("Message \(pdata)")
+    }
 }
