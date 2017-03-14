@@ -257,6 +257,7 @@ SWIFT_CLASS("_TtC5ATKit6ATFile")
 SWIFT_CLASS("_TtC5ATKit12ATFilePicker")
 @interface ATFilePicker : NSObject <UIActionSheetDelegate, UIDocumentPickerDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 @property (nonatomic, weak) id <ATFilePickerDelegate> _Null_unspecified delegate;
+@property (nonatomic) BOOL allowsImageEditing;
 - (void)showFromController:(UIViewController * _Nonnull)pController;
 - (void)dismiss;
 - (void)actionSheet:(UIActionSheet * _Nonnull)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex;
@@ -365,6 +366,7 @@ SWIFT_CLASS("_TtC5ATKit10ATLineView")
 @interface ATLineView : UIView
 @property (nonatomic) float width;
 @property (nonatomic, strong) UIColor * _Nonnull color;
+@property (nonatomic) float rotationAngleInDegrees;
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import ATKit
 
-class TabController: UIViewController {
+
+class TabController: UIViewController, ATDrawerDelegate {
     @IBOutlet weak var temperatureContainerView: UIView!
     @IBOutlet weak var gpsContainerView: UIView!
     
@@ -50,6 +52,16 @@ class TabController: UIViewController {
     }
     
     
+    func displayTemperatureTab() {
+        self.displayTabAtIndex(0)
+    }
+    
+    
+    func displayGpsTab() {
+        self.displayTabAtIndex(1)
+    }
+    
+    
     func displayOnlineStatus(_ pIsOnline :Bool) {
         if pIsOnline {
             self.onlineStatusLabel.text = "Online"
@@ -64,10 +76,18 @@ class TabController: UIViewController {
     
     
     @IBAction func didSelectIotButton(_ pSender: UIButton) {
-        if self.currentTabIndex == 0 {
-            self.displayTabAtIndex(1)
-        } else {
-            self.displayTabAtIndex(0)
+        ATDrawer.sharedInstance.drawerOptions = ["Temperature", "GPS"]
+        ATDrawer.sharedInstance.delegate = self
+        ATDrawer.sharedInstance.slideDirection = ATDrawerSlideDirection.leftToRight
+        ATDrawer.sharedInstance.show()
+    }
+    
+    
+    func atDrawer(_ pSender: ATDrawer, didSelectOptionAtIndex pIndex: Int) {
+        if pIndex == 0 {
+            self.displayTemperatureTab()
+        } else if pIndex == 1 {
+            self.displayGpsTab()
         }
     }
     
