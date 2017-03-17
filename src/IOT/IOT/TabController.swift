@@ -78,6 +78,7 @@ class TabController: UIViewController, ATDrawerDelegate {
     @IBAction func didSelectIotButton(_ pSender: UIButton) {
         ATDrawer.sharedInstance.drawerOptions = ["Temperature", "GPS"]
         ATDrawer.sharedInstance.delegate = self
+        ATDrawer.sharedInstance.selectedDrawerOptionIndex = self.currentTabIndex
         ATDrawer.sharedInstance.slideDirection = ATDrawerSlideDirection.leftToRight
         ATDrawer.sharedInstance.show()
     }
