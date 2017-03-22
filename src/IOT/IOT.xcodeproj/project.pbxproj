@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B1C34D51E82710D00161873 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1C34D31E82710D00161873 /* HockeySDK.framework */; };
+		1B1C34D61E82710D00161873 /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1B1C34D41E82710D00161873 /* HockeySDKResources.bundle */; };
 		1B3BD5A41E67FF5B001087B2 /* HistoryTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3BD5A31E67FF5B001087B2 /* HistoryTableCellView.swift */; };
 		1B3BD5A61E6804F9001087B2 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3BD5A51E6804F9001087B2 /* History.swift */; };
 		1B3BD5ED1E69871E001087B2 /* SwiftR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3BD5E01E69871E001087B2 /* SwiftR.swift */; };
@@ -73,6 +75,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B1C34D31E82710D00161873 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
+		1B1C34D41E82710D00161873 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
 		1B3BD5A31E67FF5B001087B2 /* HistoryTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableCellView.swift; sourceTree = "<group>"; };
 		1B3BD5A51E6804F9001087B2 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		1B3BD5E01E69871E001087B2 /* SwiftR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftR.swift; sourceTree = "<group>"; };
@@ -117,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B1C34D51E82710D00161873 /* HockeySDK.framework in Frameworks */,
 				3FA7FF801E699DBE0085AA34 /* ATKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +143,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B1C34D21E82710D00161873 /* HockeySDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1B1C34D31E82710D00161873 /* HockeySDK.framework */,
+				1B1C34D41E82710D00161873 /* HockeySDKResources.bundle */,
+			);
+			path = "HockeySDK-iOS";
+			sourceTree = "<group>";
+		};
 		1B3BD5DF1E69871E001087B2 /* SwiftR */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +253,7 @@
 		3F325B1D1E68592E00204D3B /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				1B1C34D21E82710D00161873 /* HockeySDK-iOS */,
 				1B3BD5DF1E69871E001087B2 /* SwiftR */,
 				3F325B1E1E68592E00204D3B /* ATKit.framework */,
 			);
@@ -356,6 +371,7 @@
 			files = (
 				1B3BD5F11E69871E001087B2 /* jquery.signalr-2.0.2.min.js in Resources */,
 				1B3BD5F01E69871E001087B2 /* jquery.signalr-2.0.1.min.js in Resources */,
+				1B1C34D61E82710D00161873 /* HockeySDKResources.bundle in Resources */,
 				3F13C76D1E65884200ADE303 /* LaunchScreen.storyboard in Resources */,
 				1B3BD5F41E69871E001087B2 /* jquery.signalr-2.1.1.min.js in Resources */,
 				1B3BD5F71E69871E001087B2 /* jquery.signalr-2.2.1.min.js in Resources */,
@@ -564,6 +580,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ThirdParty",
 					"$(PROJECT_DIR)/IOT/ThirdParty",
+					"$(PROJECT_DIR)/IOT/ThirdParty/HockeySDK-iOS",
 				);
 				INFOPLIST_FILE = IOT/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -588,6 +605,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ThirdParty",
 					"$(PROJECT_DIR)/IOT/ThirdParty",
+					"$(PROJECT_DIR)/IOT/ThirdParty/HockeySDK-iOS",
 				);
 				INFOPLIST_FILE = IOT/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
