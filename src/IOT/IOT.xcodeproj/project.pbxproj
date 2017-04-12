@@ -590,7 +590,7 @@
 				PROVISIONING_PROFILE = "a8b0e95a-3a57-467d-98ee-2c2b2f3753ea";
 				PROVISIONING_PROFILE_SPECIFIER = SynechronMarkelProdProfile;
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -615,7 +615,7 @@
 				PROVISIONING_PROFILE = "a8b0e95a-3a57-467d-98ee-2c2b2f3753ea";
 				PROVISIONING_PROFILE_SPECIFIER = SynechronMarkelProdProfile;
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
