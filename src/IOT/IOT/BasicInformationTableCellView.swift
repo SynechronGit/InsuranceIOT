@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import ATKit
 
 
 class BasicInformationTableCellView: UITableViewCell {

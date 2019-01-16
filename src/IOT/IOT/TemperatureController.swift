@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import ATKit
 
 
 class TemperatureController: UIViewController, UITableViewDataSource, UITableViewDelegate {
@@ -29,7 +28,9 @@ class TemperatureController: UIViewController, UITableViewDataSource, UITableVie
         self.sensorEventTableView.dataSource = self
         self.sensorEventTableView.delegate = self
         
-        self.dateLabel.text = Date().stringWithFormat("EEEE, MMM dd, yyyy")
+        let aDateFormatter = DateFormatter()
+        aDateFormatter.dateFormat = "EEEE, MMM dd, yyyy"
+        self.dateLabel.text = aDateFormatter.string(from: Date())
     }
     
     
